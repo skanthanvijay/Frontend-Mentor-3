@@ -1,0 +1,93 @@
+/* CSS Edited Elements */
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-position: 130% 180%, -32% -70%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+hr {
+  width: 109%;
+}
+
+h3 {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  color: hsl(227, 10%, 46%);
+  font-size: 14px;
+}
+
+.background-image {
+  position: absolute;
+  z-index: -1;
+}
+
+/* Card Design */
+
+.card-bg {
+  padding: 0;
+}
+
+.main-card {
+  width: 335px;
+  height: auto;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 18px;
+  margin: 30% auto;
+}
+
+
+/* Victor's Info */
+
+.victor {
+  position: relative;
+  bottom: 25px;
+}
+
+.victor-image {
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: hsl(0, 0%, 99%);
+  position: relative;
+  bottom: 25px;
+
+}
+
+.victor-age {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+.victor p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+
+/* Stats Section */
+
+.statbox {
+  padding: 5% 12% 3%;
+}
+
+
+
+/* Media Query for Desktop */
+
+@media (min-width: 570px) {
+  body {
+    background-position: -100% 150%, 170% -120%;
+  }
+  .main-card {
+    margin: 9% auto;
+  }
+}
